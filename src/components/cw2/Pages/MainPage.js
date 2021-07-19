@@ -8,10 +8,10 @@ const MainPage = () => {
   return (
     <Router>
       <Switch>
-        <Route path='/user'>
+        <Route path='/fiber-clone-cw/user'>
           <SignUp />
         </Route>
-        <Route path='/' exact={true}>
+        <Route path='/fiber-clone-cw' exact={true}>
           <Home />
         </Route>
         <Route path='*'>

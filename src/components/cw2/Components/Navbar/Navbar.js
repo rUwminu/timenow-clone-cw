@@ -45,7 +45,7 @@ const Navbar = () => {
   }, [])
 
   const handleLogin = () => {
-    history.push('/user')
+    history.push('/fiber-clone-cw/user')
   }
 
   return (

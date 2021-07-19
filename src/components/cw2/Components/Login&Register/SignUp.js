@@ -37,7 +37,7 @@ const SignUp = () => {
       }
       setEmail('')
       setPassword('')
-      history.push('/')
+      history.push('/fiber-clone-cw')
     } else {
       if (agreement === false) {
         console.log('false')
