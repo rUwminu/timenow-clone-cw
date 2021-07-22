@@ -11,8 +11,20 @@ const Navbar = () => {
   const [isActive, setIsActive] = useState(false)
   const [isScroll, setIsScroll] = useState(true)
   const [isScrollTop, setIsScrollTop] = useState(true)
-  const [isMobile, setIsMobile] = useState(true)
+  const [isMobile, setIsMobile] = useState(null)
   const history = useHistory()
+
+  const handleCheckWidth = () => {
+    let windowWidth = window.innerWidth
+
+    console.log(windowWidth)
+
+    if (windowWidth < 768) {
+      setIsMobile(true)
+    } else {
+      setIsMobile(false)
+    }
+  }
 
   const handleResize = () => {
     if (window.innerWidth < 768) {
@@ -38,10 +50,9 @@ const Navbar = () => {
   }
 
   useEffect(() => {
+    handleCheckWidth()
     window.addEventListener('resize', handleResize)
     window.addEventListener('scroll', handleScroll)
-
-    console.log(isActive)
   }, [])
 
   const handleLogin = () => {
