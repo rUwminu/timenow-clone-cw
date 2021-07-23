@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/timenow-clone-cw/static/css/main.0f8efe71.chunk.css",
-    "main.js": "/timenow-clone-cw/static/js/main.022def7e.chunk.js",
-    "main.js.map": "/timenow-clone-cw/static/js/main.022def7e.chunk.js.map",
+    "main.js": "/timenow-clone-cw/static/js/main.a28ce10d.chunk.js",
+    "main.js.map": "/timenow-clone-cw/static/js/main.a28ce10d.chunk.js.map",
     "runtime-main.js": "/timenow-clone-cw/static/js/runtime-main.54aed58e.js",
     "runtime-main.js.map": "/timenow-clone-cw/static/js/runtime-main.54aed58e.js.map",
     "static/css/2.86d8139d.chunk.css": "/timenow-clone-cw/static/css/2.86d8139d.chunk.css",
@@ -52,6 +52,6 @@
     "static/css/2.86d8139d.chunk.css",
     "static/js/2.01dee381.chunk.js",
     "static/css/main.0f8efe71.chunk.css",
-    "static/js/main.022def7e.chunk.js"
+    "static/js/main.a28ce10d.chunk.js"
   ]
 }
