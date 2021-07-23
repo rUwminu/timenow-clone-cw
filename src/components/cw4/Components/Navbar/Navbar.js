@@ -95,8 +95,18 @@ const Navbar = () => {
                 isActive ? 'translate-x-0 shadow-md' : 'translate-x-full'
               }`}
             >
-              <NavLink to='/timenow-clone-cw'>Features</NavLink>
-              <NavLink to='/timenow-clone-cw/plan'>Pricing</NavLink>
+              <NavLink
+                onClick={() => setIsActive(false)}
+                to='/timenow-clone-cw'
+              >
+                Features
+              </NavLink>
+              <NavLink
+                onClick={() => setIsActive(false)}
+                to='/timenow-clone-cw/plan'
+              >
+                Pricing
+              </NavLink>
               <Button>Start Scheduling</Button>
             </AbsoluteNav>
           </>
